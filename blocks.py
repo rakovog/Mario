@@ -1,3 +1,4 @@
+# комментарий
 from pygame import *
 import pygame
 platfom_w = platform_h = 32
