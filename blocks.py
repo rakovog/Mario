@@ -22,7 +22,7 @@ class Spick(Platform):
 
 class BlockTeleport(Platform):
     def __init__(self, x, y, gox, goy):
-        Platform.__init__(self, x, y,gox,goy)
+        Platform.__init__(self, x, y)
         self.goy = goy
         self.gox = gox
         self.block_teleport=[]
